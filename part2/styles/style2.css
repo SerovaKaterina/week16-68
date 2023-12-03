@@ -19,7 +19,7 @@ body {
   border: solid rgb(67, 82, 247) 1px;
   border-radius: 6px;
   max-width: 600px;
-  background-color: rgb(254, 254, 254);
+  background-color: rgba(5, 51, 13, 0.116);
   box-shadow: 8px 8px 2px 1px rgba(158, 6, 188, 0.105);
 }
 

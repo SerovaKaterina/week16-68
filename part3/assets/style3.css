@@ -34,7 +34,7 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-height: max-content;
-  border-radius: 15px;
+  border: solid rgb(67, 82, 247) 1px;
   background-color: rgba(5, 51, 13, 0.116);
 }
 select {
