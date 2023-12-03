@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    307deg,
+    rgba(25, 16, 186, 0.522) 0%,
+    rgba(106, 240, 131, 0.67) 100%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.div_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  border: solid rgb(67, 82, 247) 1px;
+  border-radius: 6px;
+  max-width: 600px;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 8px 8px 2px 1px rgba(158, 6, 188, 0.105);
+}
+
+div {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 20em;
+  height: 1.5em;
+  border: transparent;
+}
+
+.gender,
+.data {
+  display: flex;
+  margin: 0 auto;
+}
+
+#gender1,
+#gender2,
+#agreement {
+  width: 3em;
+}
+
+.data {
+  width: 20em;
+}
+
+input,
+div {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+input {
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+#btn_submit {
+  height: 2em;
+  width: 18em;
+  font-size: large;
+  background-color: rgb(95, 184, 145);
+  border: 2px solid rgb(101, 142, 112);
+}
+
+input:hover,
+select:hover {
+  background-color: rgb(223, 232, 226);
+}
+
+.password,
+.name,
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_pass {
+  font-size: 12px;
+  width: 18em;
+}
+
+input:required:valid {
+  border-bottom: 2px solid green;
+}
+
+label {
+  font-size: smaller;
+  opacity: 0.4;
+}
+
+.data_yes {
+  opacity: 1;
+}
+
+.error {
+  flex-direction: column;
+}
+
+.error > span {
+  color: red;
+  font-size: small;
+}
